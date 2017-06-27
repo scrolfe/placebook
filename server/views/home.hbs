@@ -1,1 +1,9 @@
-<h1>Your profile</h1>
+<h2>Welcome to Placebook, the hub for your favorite, unlikely places!</h2>
+<ul>
+    {{#each allPlaces}}
+        <li>Place name: {{this.name}}</li>
+        <li>Place map link: {{this.location}}</li>
+        <li>About place:{{this.description}}</li>
+        <img src="{{this.image}}" alt="Place Image">
+    {{/each}}
+</ul>

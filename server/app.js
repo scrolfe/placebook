@@ -1,7 +1,7 @@
 var express = require('express'),
     app = express(),
     server = require('http').createServer(app),
-    path = require('path'),
+    path = require('path');
     Person = require('./models/Person.js'),
     Place = require('./models/Place.js'),
     Post = require('./models/Post.js');
@@ -16,7 +16,7 @@ app.use('/person', PersonController);
 app.use('/place', PlaceController);
 app.use('/post', PostController);
 
-app.use(express.static(path.join(__dirname, 'public'))); 
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs')

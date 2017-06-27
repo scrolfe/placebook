@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var PlaceSchema = new mongoose.Schema({
     name: String,
-    hasMap: String,
+    location: String,
     description: String,
     image: String
 });

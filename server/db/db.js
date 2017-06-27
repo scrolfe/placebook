@@ -1,6 +1,6 @@
 //connects to mongo database
 var mongoose = require('mongoose')
-var connectionString = 'mongodb://localhost/' // ?
+var connectionString = 'mongodb://localhost/places' // ?
 
 mongoose.connect(connectionString);
 
