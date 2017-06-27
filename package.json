@@ -1,0 +1,19 @@
+{
+  "name": "placebook2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hbs": "^4.0.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "mongoose": "^4.11.0"
+  }
+}
